@@ -4,6 +4,8 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
+    
+
     int *b = new int[N_ELEMENTS];
     std::cout << "1-100 értékek duplázása" << std::endl;
     
@@ -25,6 +27,8 @@ int main()
     
     atlag /= N_ELEMENTS;
     std::cout << "Átlag: " << atlag << std::endl;
+
+    std::cout << "Persze hogy segítek a házidban!" << std::endl;
 
     delete[] b;
     return 0;
